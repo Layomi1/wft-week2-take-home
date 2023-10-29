@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Layomi">
+
+    <meta name="keyword" content="html" >
+    <title>Simple podcast page.</title>
+ </head>
+ <body>
+    <style>
+        body{
+            padding: 0 120px;
+        }
+        section{
+            padding-left: 50px;
+        }
+        h1 {
+            margin-bottom: 0;
+        }
+        h1 span {
+            font-weight: bolder;
+        }
+        small, #response {
+            color: gray;
+        }
+        #response{
+            margin-right: 5px;
+        }
+        p { 
+            font-size: 18px;
+
+        }
+        .bold {
+            font-weight: 600;
+        }
+        .plain {
+            font-weight: 300;
+        }
+        article{
+            margin-bottom: 40px;
+        }
+        #answer {
+            padding:0 320px 0 50px ;
+        }
+        video{
+            margin-top: 10px;
+            padding-left: 40px;
+        }
+    </style>
+    <section>
+        <h1>Faustina <strong>&lt; &gt;</strong> John (User Interview)</h1>
+        <small>Createf ob the Sept 17,  11:39 A.M</small>
+    
+        <p class="bold">Project : <span id="response">Staying connected in the post-pandenic world</span> </p>
+        <p class="bold">Moderator: <span class="plain" id="response">Speaker 1</span></p>
+        <p class="bold">Participant: <span class="plain" id="response"> Speaker 2</span></p>
+    </section>
+
+    <!-- video -->
+    <video width="500" controls >
+        <source src="https://www.shutterstock.com/shutterstock/videos/1057163464/preview/stock-footage-close-up-shot-of-family-celebration-dinner-table-served-with-healthy-vegetarian-meals-holiday.webm" type="video/webm">
+    </video>
+    <!-- video ends -->
+    <article>
+        <p class="bold"><span id="response" >00:05 </span> Speaker 1 </p>
+        <p id="answer">How do you feel about the number of video calls you and your team are conducting?</p>
+    </article>
+    
+
+    <p class="bold"> <span id="response">00:05 </span> Speaker 2</p>
+    <p  id="answer">
+    The number of video calls have grown exponentially since our team moved to a remote environment. 
+    I feel emotionally and physically drained by the number of calls !
+    </p>
+   
+ </body>
+ </html>
